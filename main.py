@@ -37,9 +37,6 @@ if choice == "AI Prompt Generator":
     st.title("Prompt Helping BOT : (Prototype)")
     st.subheader("-By Rahul Sharma")
 
-    # Set OpenAI API key from Streamlit secrets
-    openai.api_key = "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"
-
     # Set a default model
     if "openai_model" not in st.session_state:
         st.session_state["openai_model"] = "gpt-3.5-turbo"
