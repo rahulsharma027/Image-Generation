@@ -10,7 +10,7 @@ from streamlit_chat import message
 from utils import get_initial_message, get_chatgpt_response, update_chat
 
 load_dotenv()
-openai.api_key = "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"
+openai.api_key = "OPENAI_KEY"
 
 
 # function to generate AI based images using OpenAI Dall-E
