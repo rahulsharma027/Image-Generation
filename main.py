@@ -7,7 +7,7 @@ from diffusers import StableDiffusionPipeline
 import torch
 from PIL import Image
 from streamlit_chat import message
-from utils import get_initial_message, get_chatgpt_response, update_chat
+from utils import get_initial_message
 
 load_dotenv()
 openai.api_key = "OPENAI_KEY"
